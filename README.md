@@ -1,12 +1,61 @@
-# React + Vite
+# 🚮 TrashGo: Smart Waste Collection & Tracking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TrashGo is a smart, mobile-based waste collection and tracking platform built to revolutionize urban waste management. With features like real-time GPS tracking, task allocation, complaint reporting, and smart bins that incentivize recycling, TrashGo enables efficient, transparent, and sustainable waste handling for municipalities and citizens alike.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📱 Features
 
-## Expanding the ESLint configuration
+- 📍 **Map-Based Bin Tracking** – Citizens and collectors can locate dustbins using GPS.
+- 🚛 **Smart Task Assignment** – In-chargers assign area-based collection tasks to workers.
+- 🟡🟢 **Real-Time Status Updates** – Mark collection tasks as “Pending” or “Complete”.
+- 🗣️ **Raise Complaints** – Citizens can report overflowing or missed bins directly.
+- 🧠 **Smart Bins Integration** – Bins detect and sort waste (plastic, metal, wet).
+- 💰 **Recycling Cashback** – Users earn cashback points for responsible disposal.
+- 📊 **In-Charger Dashboard** – Track, monitor, and manage collection efficiency.
+- 🔁 **Circular Economy** – Recyclables are sold to partners, and users are rewarded.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Category      | Technology          |
+|---------------|---------------------|
+| Frontend      | React Native        |
+| Backend       | Node.js, Express.js |
+| Database      | MongoDB             |
+| Maps & GPS    | Google Maps API     |
+| Smart Hardware| IoT Sensors (Plastic, Metal, Wet Detection) |
+| Auth & State  | JWT, Redux (if applicable) |
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- Node.js & npm
+- MongoDB instance (local or Atlas)
+- Expo CLI (for React Native)
+- Google Maps API key
+
+### 🔧 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/trashgo.git
+cd trashgo
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Start backend
+npm start
+
+# Install frontend dependencies
+cd ../frontend
+npm install
+
+# Start frontend
+npm start
